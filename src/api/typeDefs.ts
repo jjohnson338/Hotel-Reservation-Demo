@@ -7,8 +7,8 @@ export default gql`
     id: ID!
     guestName: String!
     hotelName: String!
-    arrivalDate: Date
-    departureDate: Date
+    arrivalDate: Date!
+    departureDate: Date!
   }
 
   type Query {
